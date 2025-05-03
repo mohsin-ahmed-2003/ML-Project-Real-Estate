@@ -74,7 +74,8 @@ For a real estate price prediction system using machine learning in Python, we c
   
   plt.tight_layout(rect=[0, 0.03, 1, 0.95])
   plt.show()
-  ![image](https://github.com/user-attachments/assets/94d47461-6e80-4aca-90e8-19b31b19a4f3)
+  ![image](https://github.com/user-attachments/assets/01066947-2f88-4e72-8035-2de81bf17ef1)
+
 
 
 **Scatter plot**
@@ -86,7 +87,8 @@ sns.scatterplot(df, x='House age', y='House price of unit area', ax=axes[0, 0])
 sns.scatterplot(df, x='Distance to the nearest MRT station', y='House price of unit area', ax=axes[0, 1])
 sns.scatterplot(df, x='Number of convenience stores', y='House price of unit area', ax=axes[1, 0])
 sns.scatterplot(df, x='Latitude', y='House price of unit area', ax=axes[1, 1])
-![image](https://github.com/user-attachments/assets/82d07f25-2e27-4229-99bf-04f90d805a7d)
+![image](https://github.com/user-attachments/assets/7765bc6c-4078-4f21-9fd7-24704cd6f1e9)
+
 
 
 plt.tight_layout(rect=[0, 0.03, 1, 0.95])
@@ -104,7 +106,7 @@ plt.show()
   sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt=".2f", linewidths=.5)
   plt.title('Correlation Matrix')
   plt.show()
-  ![image](https://github.com/user-attachments/assets/efb812d9-6377-4acc-b66b-af1c41dcdccc)
+  ![image](https://github.com/user-attachments/assets/242d57f3-a171-46c5-ab2a-f11cbdd503c9)
 
 
 8. Implement model for each Model that we have imported
@@ -148,7 +150,8 @@ plt.show()
   plt.ylabel('Predicted')
   plt.title('Actual vs. Predicted House Prices')
   plt.show()
-  ![image](https://github.com/user-attachments/assets/9f17fbb8-0189-4e5a-b02c-c1925e12d85d)
+  ![image](https://github.com/user-attachments/assets/62f27585-efc3-4be1-8a24-0b2d04f32280)
+
 
 **14. Predict the price of new house by Provide a data of house**
   new_property = pd.DataFrame({
@@ -161,6 +164,7 @@ plt.show()
 y_pred = model.predict(new_property)
 print("Predicted price for the new property: ",y_pred)
 
+Predicted price for the new property:  **[38.59834007]**
 
  **NOTE: FOR OTHER ALGORITHM REFER THE CODE OF THIS PROJECT**
 
