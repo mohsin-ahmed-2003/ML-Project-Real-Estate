@@ -1,5 +1,5 @@
 # ML-Project-Real_Estate_prediction
-A Machine Learning project that will predict the price of house based on its Latitude, Longitude , etc.,
+A Machine Learning project that will predict the price of house based on its Latitude, Longitude , etc..,
 
 **Problem Statement** <br>
 This project focused on real estate price prediction using machine learning in Python. ​ <br>
